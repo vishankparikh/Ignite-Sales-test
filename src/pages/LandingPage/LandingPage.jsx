@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './LandingPage.scss';
-import SidePanel from "../../components/SidePanel/SidePanel"
+import SidePanel from "../../components/SidePanel/SidePanel";
 
 class LandingPage extends Component {
     _isMounted = false;
@@ -26,10 +26,17 @@ class LandingPage extends Component {
 
     componentDidMount() {
         this._isMounted = true;
-        const script = document.createElement("script");
+        let script = document.createElement("script");
         script.src = "https://kit.fontawesome.com/4e3a2b024e.js";
         script.async = true;
         document.body.appendChild(script);
+/*
+        let link = document.createElement("link");
+        link.href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+        link.rel="stylesheet";
+        document.head.appendChild(link);
+*/
+        
     }
 
     componentWillUnmount() {
@@ -62,7 +69,7 @@ class LandingPage extends Component {
                 currency: 'USD',
             });
             formData[type] = formatter.format(formData[type]);
-            this.setState({formData: formData});
+            this.setState({ formData: formData });
         }
     }
 
@@ -73,7 +80,7 @@ class LandingPage extends Component {
 
             <div className="maindiv">
                 <div className="maininndiv">
-                    <img className="logo" />
+                    <div className="logo" />
 
 
 
@@ -206,6 +213,12 @@ class LandingPage extends Component {
 
                 <SidePanel />
 
+            {/*
+                <div className="topNavigation">
+                    <span className="glyphicon glyphicon-menu-down"></span>
+                </div>
+
+            */}
             </div>
 
 

@@ -1,127 +1,145 @@
 
+
+.sidePanel {
+  margin-top:1%;
+  width:20%;
+  position:absolute;
+  right:20px;
+  top:10px;
+}
+
+.imageText {
+  margin-top:15%;
+  color:#E0EBF4;
+  font-size:25px;
+  text-align:right;
+  width: 50%;
+  float: right;
+}
+
 .landing svg .background,.cashFlowRevenue svg .background,.cashFlowIncome svg .background,.managingMoney svg .background,.optimizeCashFlow svg .background,.loanNeeds svg .background,.transactionLevels svg .background {
-    fill: #777
-  }
-  
-  #indicatorIcon {
-    fill: white
-  }
-  
-  #indicatorIcon>circle {
-    stroke: white
-  }
-  
-  #indicatorIcon>g {
-    opacity: 0
-  }
-  
-  .landing .landingSubtitle {
-    padding: 2rem 0 0;
-    font-weight: normal;
-    font-size: .8em;
-    color: #ef7622
-  }
-  
-  .landing .landing-img-wrapper,.landing .questionPage {
-    top: 8rem
-  }
-  
-  .cashFlowIncome svg .st2 {
-    fill: #f58023
-  }
-  
-  .cashFlowIncome #manageIcon {
-    opacity: 1.0
-  }
-  
-  .optimizeCashFlow svg .st9,.cashFlowRevenue svg .st9 {
-    fill: #f9a232
-  }
-  
-  .optimizeCashFlow #optimizeIcon,.cashFlowRevenue #optimizeIcon {
-    opacity: 1.0
-  }
-  
-  .managingMoney svg .st5,.transactionLevels svg .st5 {
-    fill: #f07622
-  }
-  
-  .managingMoney #simplifyIcon,.transactionLevels #simplifyIcon {
-    opacity: 1.0
-  }
-  
-  .loanNeeds svg .st7 {
-    fill: #1282c5
-  }
-  
-  .loanNeeds #growthIcon {
-    opacity: 1.0
-  }
-  
-  .common #manageIcon,.yourTeam #manageIcon,.highLevel #manageIcon,.behavior #manageIcon,.retirementNeeds #manageIcon {
-    transform: translate(5px,-27.5px) scale(0.4);
-    opacity: 1.0
-  }
-  
-  .common #simplifyIcon,.yourTeam #simplifyIcon,.highLevel #simplifyIcon,.behavior #simplifyIcon,.retirementNeeds #simplifyIcon {
-    opacity: 1.0;
-    transform: translate(5px,5px) scale(0.4)
-  }
-  
-  .common #growthIcon,.yourTeam #growthIcon,.highLevel #growthIcon,.behavior #growthIcon,.retirementNeeds #growthIcon {
-    opacity: 1.0;
-    transform: translate(-31px,6px) scale(0.4)
-  }
-  
-  .common #optimizeIcon,.yourTeam #optimizeIcon,.highLevel #optimizeIcon,.behavior #optimizeIcon,.retirementNeeds #optimizeIcon {
-    opacity: 1.0;
-    transform: translate(-30px,-28px) scale(0.3)
-  }
-  
-  .st2 {
-    fill: #ffecaf
-  }
-  
-  .st3 {
-    fill: #fff0c8
-  }
-  
-  .st5 {
-    fill: #f07622
-  }
-  
-  .st6 {
-    fill: #fa9654
-  }
-  
-  .st7 {
-    fill: #1282c5
-  }
-  
-  .st8 {
-    fill: #6199d1
-  }
-  
-  .st9 {
-    fill: #f9a232
-  }
-  
-  .st10 {
-    fill: #fcb767
-  }
-  
-  tspan {
-    font-size: 12px;
-    fill: #555;
-    font-family: 'museo-sans-condensed';
-    font-weight: 700
-  }
-  
-  #inner_circle {
-    fill: url(#inner_circle_gradient)
-  }
-  
-  #text-path {
-    stroke: none;
-    fill: none
-  }
+  fill: #777
+}
+
+#indicatorIcon {
+  fill: white
+}
+
+#indicatorIcon>circle {
+  stroke: white
+}
+
+#indicatorIcon>g {
+  opacity: 0
+}
+
+.landing .landingSubtitle {
+  padding: 2rem 0 0;
+  font-weight: normal;
+  font-size: .8em;
+  color: #ef7622
+}
+
+.landing .landing-img-wrapper,.landing .questionPage {
+  top: 8rem
+}
+
+.cashFlowIncome svg .st2 {
+  fill: #f58023
+}
+
+.cashFlowIncome #manageIcon {
+  opacity: 1.0
+}
+
+.optimizeCashFlow svg .st9,.cashFlowRevenue svg .st9 {
+  fill: #f9a232
+}
+
+.optimizeCashFlow #optimizeIcon,.cashFlowRevenue #optimizeIcon {
+  opacity: 1.0
+}
+
+.managingMoney svg .st5,.transactionLevels svg .st5 {
+  fill: #f07622
+}
+
+.managingMoney #simplifyIcon,.transactionLevels #simplifyIcon {
+  opacity: 1.0
+}
+
+.loanNeeds svg .st7 {
+  fill: #1282c5
+}
+
+.loanNeeds #growthIcon {
+  opacity: 1.0
+}
+
+.common #manageIcon,.yourTeam #manageIcon,.highLevel #manageIcon,.behavior #manageIcon,.retirementNeeds #manageIcon {
+  transform: translate(5px,-27.5px) scale(0.4);
+  opacity: 1.0
+}
+
+.common #simplifyIcon,.yourTeam #simplifyIcon,.highLevel #simplifyIcon,.behavior #simplifyIcon,.retirementNeeds #simplifyIcon {
+  opacity: 1.0;
+  transform: translate(5px,5px) scale(0.4)
+}
+
+.common #growthIcon,.yourTeam #growthIcon,.highLevel #growthIcon,.behavior #growthIcon,.retirementNeeds #growthIcon {
+  opacity: 1.0;
+  transform: translate(-31px,6px) scale(0.4)
+}
+
+.common #optimizeIcon,.yourTeam #optimizeIcon,.highLevel #optimizeIcon,.behavior #optimizeIcon,.retirementNeeds #optimizeIcon {
+  opacity: 1.0;
+  transform: translate(-30px,-28px) scale(0.3)
+}
+
+.st2 {
+  fill: #ffecaf
+}
+
+.st3 {
+  fill: #fff0c8
+}
+
+.st5 {
+  fill: #f07622
+}
+
+.st6 {
+  fill: #fa9654
+}
+
+.st7 {
+  fill: #1282c5
+}
+
+.st8 {
+  fill: #6199d1
+}
+
+.st9 {
+  fill: #f9a232
+}
+
+.st10 {
+  fill: #fcb767
+}
+
+tspan {
+  font-size: 12px;
+  fill: #555;
+  font-family: 'museo-sans-condensed';
+  font-weight: 700
+}
+
+#inner_circle {
+  fill: url(#inner_circle_gradient)
+}
+
+#text-path {
+  stroke: none;
+  fill: none
+}
