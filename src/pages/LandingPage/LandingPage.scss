@@ -1,0 +1,203 @@
+.maindiv {
+    width:100%;
+    height:635px;
+    background:#16487E;
+    display:table;
+    position:relative;
+  }
+  .maininndiv {
+    background:White;
+    margin:10px;
+    padding:10px;
+    width:77%;
+    border-radius: 0 65% 65% 0 / 0 340% 340% 0;
+    height:545px;
+    position:relative;
+    overflow: hidden;
+    .logo{
+        background: url('../../images/UbankOG.PNG');
+        width: 250px;
+        height: 100px;
+        background-size: 100%;
+        float: left;
+        background-repeat: no-repeat;
+        //display: inline-block;
+
+    }
+    .formWrapper{
+        position: relative;
+        float: left;
+        margin-top: 25px;
+        clear: left;
+        top: 25%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        .formTitle{
+            font-size: 20px;
+            margin-bottom: 15px;
+            color:#16487E;
+            font-weight:bold;
+            text-align: left;
+            margin-left: 25px;
+        }
+        .formContent{
+            position: relative;
+            display: inline-block;
+            margin-left: 65px;
+            width: 640px;
+            .questionWrapper{
+                position: relative;
+                float: left;
+                font-size: 18px;
+                margin-top: 15px;
+                font-weight: bold;
+                .question{
+                    position: relative;
+                    float: left;
+                    color:#16487E;
+                    width: 385px;
+                    text-align: left;
+                    padding: 8px 0;
+                }
+                .answer{
+                    position: relative;
+                    float: right;
+                    margin-left: 25px;
+                    text-align: right;
+                    padding: 6px 12px;
+                    font-size: inherit;
+                }
+                .dropdown{
+                    width: 215px;
+                }
+                .singleline{
+                    width: 100%;
+                }
+                .subQue{
+                    text-align: right;
+                }
+                .orange {
+                    color:#F07824;
+                  }
+                  .blue {
+                    color:#16487E
+                  }
+                  .green {
+                    color:#97C192
+                  }
+            }
+        }
+        
+    }
+    .big{
+        top: 33%;
+    }
+    .navigationText {
+        font-size:16px;
+        position:absolute;
+        bottom:20px;
+        font-weight: bold;
+        cursor:pointer;
+      }
+      .backBtn {
+        left:2%;
+        color:#F07824;
+      }
+      .nextbtn {
+        right:9%;
+        color:#4B6CA0;
+      }
+  }
+  .footer{
+      position: relative;
+      float: left;
+      .footerText{
+          position: relative;
+          text-align: left;
+          padding-left: 50px;
+          color: #E0EBF4;
+          font-size: 35px;
+      }
+  }
+
+
+
+  
+  /*
+  .foottext {
+    padding-left:50px;
+    color:#E0EBF4;
+    font-size:35px;
+  }
+  #rightdiv {
+    margin-top:1%;
+    width:20%;
+    position:absolute;
+    right:20px;
+    top:10px;
+  }
+  #righttext {
+    margin-top:15%;
+  }
+  .imgtxt {
+    color:#E0EBF4;
+    font-size:25px;
+    text-align:right;
+  }
+ 
+  form {
+    margin-left:10%;
+  }
+  .form-group {
+    width:65%;
+  }
+  .form-group label {
+    text-align:left;
+    color:#16487E;
+    margin-bottom:10px;
+  }
+  .form-control {
+    width:30%;
+    float:right;
+    color:#16487E;
+    text-align:right;
+  }
+  
+  .margleft label {
+      padding-left: 35px;
+      width: 50%;
+      text-align: right;
+  }
+  .margleft .form-control {
+      width: 20%;
+  }
+  .topMenu {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    background: #D9D9D9;
+    color: white;
+    padding: 0px 25px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0px 1px 5px #343;
+  }
+  .topMenu:hover {
+    background:#DFDFDF;
+  }*/
+  
+  /* animatiosn 
+  #form1 {
+    transition:all linear 0.3s;
+  }
+  #form2 {
+    transition:all linear 0.3s;
+  }
+  #form1.ng-hide, #form2.ng-hide {
+    opacity:0;
+    transform: scale(0.1);
+  }
+  
+  /* input colors */
+  
+  
